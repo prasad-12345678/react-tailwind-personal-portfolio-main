@@ -5,24 +5,24 @@ const highlights = [
     icon: Code2,
     title: "Clean Code",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Writing clean, maintainable, and scalable code for modern web applications.",
   },
   {
     icon: Rocket,
     title: "Performance",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Optimizing applications for speed, efficiency, and smooth user experiences.",
   },
   {
     icon: Users,
     title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    description: "Ready to Working with teams to build efficient web applications and deliver quality software solutions.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Continuous Learning",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Constantly exploring new technologies and improving my skills to build better web applications.",
   },
 ];
 
@@ -40,39 +40,35 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Building scalable web applications,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                one feature at a time.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I’m a passionate Full-Stack Developer with a strong foundation in building modern web applications. 
+                My journey into development started with a curiosity about how web applications work, which led me to explore 
+                full-stack technologies and create real-world projects.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I specialize in the MERN stack, working with React, Node.js, Express, and MongoDB to develop scalable and 
+                efficient applications. I also have experience with Python and Django for backend development, 
+                along with building REST APIs and implementing secure authentication systems.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Through my projects and internship experience, I’ve built full-stack applications such as a 
+                social media platform and an e-commerce system. I enjoy solving problems, learning new technologies, 
+                and continuously improving my development skills to build impactful software.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to build scalable and reliable web applications that solve real-world problems 
+                while continuously learning and improving as a developer."
               </p>
             </div>
           </div>

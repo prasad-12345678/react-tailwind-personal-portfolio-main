@@ -2,40 +2,40 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Social media web app",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+      "Developed a full-stack social media application using the MERN stack with features like authentication, posts, likes, follow system, and real-time chat.",
+    image: "/projects/Screenshot (619).png",
+    tags: ["React", "ExpressJS", "NodeJS", "Mongodb"],
+    link: "https://pingup-client-pink.vercel.app/",
+    github: "https://github.com/prasad-12345678/social-media-web-app-",
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "Developed a responsive personal portfolio website to showcase my projects, skills, and experience as a Full-Stack Developer.",
+    image: "/projects/Screenshot (620).png",
+    tags: ["ReactJS", "Tailwind"],
     link: "#",
     github: "#",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Ecommerce Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "Developed a full-stack E-Commerce web application using Django with features like product catalog, authentication, cart, and secure checkout.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+    tags: ["HTML CSS", "Django", "Python", "SQL"],
     link: "#",
-    github: "#",
+    github: "https://github.com/prasad-12345678/django-Ecommerce-website",
   },
   {
-    title: "Project Management Tool",
+    title: "",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "Developed a food recognition and calorie estimation system using machine learning to identify food items and estimate their nutritional values.",
+    image: "/projects/Screenshot (623).png",
+    tags: ["Machine Learning", "Python", "Deep Learning", "HTML CSS"],
     link: "#",
-    github: "#",
+    github: "https://github.com/prasad-12345678/Food-recognition-and-calorie-estimation",
   },
 ];
 
@@ -58,10 +58,6 @@ export const Projects = () => {
               make an impact.
             </span>
           </h2>
-          <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, from complex web applications to
-            innovative tools that solve real-world problems.
-          </p>
         </div>
 
         {/* Projects Grid */}
