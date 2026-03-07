@@ -16,8 +16,8 @@ const projects = [
       "Developed a responsive personal portfolio website to showcase my projects, skills, and experience as a Full-Stack Developer.",
     image: "/projects/Screenshot (620).png",
     tags: ["ReactJS", "Tailwind"],
-    link: "#",
-    github: "#",
+    link: "https://react-tailwind-personal-portfolio-m.vercel.app/",
+    github: "https://github.com/prasad-12345678/react-tailwind-personal-portfolio-main",
   },
   {
     title: "Ecommerce Platform",
@@ -29,7 +29,7 @@ const projects = [
     github: "https://github.com/prasad-12345678/django-Ecommerce-website",
   },
   {
-    title: "",
+    title: "Food Recognition and Calorie Estimation",
     description:
       "Developed a food recognition and calorie estimation system using machine learning to identify food items and estimate their nutritional values.",
     image: "/projects/Screenshot (623).png",
@@ -101,7 +101,9 @@ export const Projects = () => {
               <div className="p-6 space-y-4">
                 <div className="flex items-start justify-between">
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
-                    {project.title}
+                    <a href={project.link}>
+                      {project.title}
+                    </a>
                   </h3>
                   <ArrowUpRight
                     className="w-5 h-5 
